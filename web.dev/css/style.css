@@ -1,0 +1,325 @@
+
+/* Maslahatchi Jamshid  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background: linear-gradient(red,green,teal,yellow,red );
+} */
+.header-box{
+    display: inline-block;
+    width: 100%;
+      background-color: black;  
+    height: 670px;
+}
+@media  screen and (max-width:600px) {
+    .header-box{
+        width: auto;
+        display: inline-block;
+        background-color: black;
+    }
+}
+/* aziz ishlagan joyi */
+.header__list a{
+    display: flex;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.header__list{
+   
+    display: flex;
+    margin: 0 0 0 770px;
+    position: absolute;
+    top:55px;  
+    list-style: none;
+}
+.header__item{
+    
+transition: 1s  ;
+
+
+}
+.header__item:hover{
+    color: maroon;
+    transform: scale(1.2);
+    background-color: aqua;
+    border-radius: 5px ;
+    border: 3px solid maroon;
+}
+
+/* shu yergacha  */
+.logo{
+    display: inline-block;
+    
+}
+.logo h1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+#sectionbox{
+display:inline-block ; 
+}
+.text {
+    display: block;  
+}
+
+.text h1 {
+    align-items: center;
+    justify-content: center; 
+    font-size: 5rem;
+    margin-top: 90px ;
+    margin-left: 400px;
+
+}
+.text p{
+    text-align: center;
+    margin-top: 50px ;
+    margin-left: 400px;  
+}
+.button{
+    display: inline-flex;
+    text-align: center;
+    margin-top: 50px ;
+    margin-left: 500px;
+    font-size: 20px;
+    
+ }
+/* .section_image{
+    background-image: url(image/image.jpg);
+}  */
+.sectiondiv{
+    display: inline-block;
+    height:200px;
+    
+}
+.sectiondiv img{
+    padding:10px ;
+    width: 80px;
+    height: 50px;
+   margin-left: 150px;
+}
+@media only screen and(min-width:600px) {
+    .sectiondiv{
+        display:inline-block;
+    }
+}
+.section-container{
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+.section-container p{
+    margin-left: 65px;
+}
+.section-five{
+    display: inline-flex;
+    
+}
+
+.section-one{
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 200px;
+    height: 190px;
+    box-shadow:0px 0px 0px 0.25px #111 ;
+    transition: 0.5s;
+}
+.section-one a {
+    color: green;
+    text-decoration: none;
+}
+.section-one:hover{
+    transform: scale(1.2);
+    box-shadow:5px 5px 5px 5.25px #111 ;
+}
+.section-two{
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 200px;
+    height: 190px;
+    box-shadow:0px 0px 0px 0.25px #111 ;
+    transition: 0.5s;
+}
+.section-two a {
+    color: green;
+    text-decoration: none;
+}
+.section-two:hover{
+    transform: scale(1.2);
+    box-shadow:5px 5px 5px 5.25px #111 ; 
+}
+ 
+.section-there{
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 200px;
+    height: 190px;
+    box-shadow:0px 0px 0px 0.25px #111 ;
+    transition: 0.5s;
+}
+.section-there a {
+    color: green;
+    text-decoration: none;
+}
+.section-there:hover{
+    transform: scale(1.2);
+    box-shadow:5px 5px 5px 5.25px #111 ;
+}
+.section-for{
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 200px;
+    height: 190px;
+    box-shadow:0px 0px 0px 0.25px #111 ;
+    transition: 0.5s;
+}
+.section-for a {
+    color: green;
+    text-decoration: none;
+}
+.section-for:hover{
+    transform: scale(1.2);
+    box-shadow:5px 5px 5px 5.25px #111 ; 
+}
+.section-five1{
+    display: inline-flex;
+    
+}
+#button{
+    margin-left: -280px;
+     margin-top: 300px; 
+    background-color: green;
+    width: 100px;
+    height: 30px;
+}
+
+.section-p-h2 p{
+    margin-left: 50px;
+}
+.section-p-h2{
+    margin-top: 150px;
+    margin-left: 45%
+}
+
+.section-jurnals{
+     display: inline-block; 
+     background-color: rgb(138, 137, 137);
+     height: 450px;
+     width: 500px;
+     margin-left: 100px;
+     margin-top: 100px;
+}
+.jurnal{
+    margin-top: 10px;
+    height: 430px;
+    width:500px ;
+}
+/* .jurnal1{
+    
+    height: 430px;
+    width:150px ;
+} */
+.section-jurnals1{
+    display: inline-block; 
+     background-color: rgb(138, 137, 137);
+     height: 400px;
+     width: 500px;
+     margin-left: 100px;
+     margin-top: 200px;
+}
+.jurnl{
+    height: 400px;
+    width:500px ;
+}
+
+.section-jurnals-text a{
+    margin-top: 40px;
+    text-decoration:none;
+    color:green;
+}
+#button_All{
+ margin-left: 39rem;
+ margin-top: 5rem;  
+}
+
+.section-footer{
+    display: flex;
+}
+@media screen and(max-width:576px){
+      
+    
+}
+.section_one_1{
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
+.section-one1{
+    margin-top: 50px;
+    margin-left: 13rem;
+    transition: 1s;
+}
+.section-one1:hover{
+    transform: scale(1.2);
+  
+}
+ .section-one1 button:hover{
+    background-color: green;
+} 
+#section-one3{
+    display: flex;
+}
+@media screen and(max-width:576px){
+    #section-one3{
+        display: flex;
+        width: 576px;
+    }  
+    
+}
+.section-tamom{
+    margin-top: 40px;
+    margin-left: 36rem;
+}
+/* Azizbek ishlagan joyi */
+#a{
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+}
+.b{
+margin: 0 0 0 5vw;
+}
+.b p{
+    width: 230px;
+}
+
+.bb{
+    margin: 0 0 0 10vw;
+}
+.dd{
+    margin: 0 0 0 15vw;
+}
+.ff{
+    margin: 0 0 0 20vw;
+    text-decoration: none;
+}
+.ff button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    border-radius: 5px;
+}
+.ff a{
+    text-decoration: none;
+    color: black;
+}
